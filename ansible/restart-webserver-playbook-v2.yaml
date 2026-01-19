@@ -1,0 +1,9 @@
+# restart_service.yml
+- name: Dynatrace self-healing
+  hosts: "{{ target_host }}"
+  become: yes
+  tasks:
+    - name: Restart application service
+      service:
+        name: "{{ service_name }}"
+        state: restarted
