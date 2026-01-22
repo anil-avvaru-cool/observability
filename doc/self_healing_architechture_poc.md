@@ -12,5 +12,4 @@ flowchart TD
     C -->|Problem Detected|E    
     E -->|HTTP POST - Problem Context| F
     F --> G
-
 ```
