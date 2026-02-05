@@ -23,12 +23,3 @@ This table is designed for an **enterprise / SRE / platform engineering audience
 
 ---
 
-## Quick Interpretation (How to Use This Table)
-
-**Existing Dynatrace AI**
-
-* Strong in causation inference, anomaly detection, and alert suppression
-* Provides integration points for automation (workflows/webhooks)
-
----
-
